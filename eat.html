@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi Crush</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: lightpink;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+        }
+        .image {
+            width: calc(50% + 52.5px); /* Reduced by 30% from the previous calc(50% + 75px) */
+            max-width: 157.5px; /* Reduced max size by 30% from 225px */
+            height: auto;
+            margin: 21px 0; /* Reduced margin by 30% */
+        }
+        .message {
+            font-size: calc(9.8px + 1.05vw); /* Reduced font size by 30% from calc(14px + 1.5vw) */
+            font-weight: bold;
+            margin: 21px 0; /* Reduced margin by 30% */
+        }
+        .click-button {
+            font-size: calc(7px + 0.525vw); /* Reduced font size by 30% from calc(10px + 0.75vw) */
+            padding: 5.6px 10.5px; /* Reduced padding by 30% */
+            background-color: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 21px; /* Reduced margin by 30% */
+        }
+    </style>
+</head>
+<body>
+    <img src="eat1.gif" class="image">
+    <div class="message">Wag ka din papalipas ng gutom 😊</div>
+    <img src="eat2.jpg" class="image">
+    <button class="click-button" onclick="window.location.href='sleep.html'">Click Me</button>
+</body>
+</html>

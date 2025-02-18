@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: pink;
+            position: relative;
+            padding-top: 50px;
+        }
+        .message {
+            font-size: calc(16px + 2vw);
+            font-weight: bold;
+            margin: 40px 0;
+            max-font-size: 30px;
+        }
+        .meme-container {
+            position: relative;
+            width: 100%;
+            height: 300px; /* Set a fixed height for the container */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px; /* Increased space between the images */
+        }
+        .meme {
+            width: 15%; /* Fixed width for each image */
+            max-width: 200px;
+            height: auto;
+        }
+
+        .next-button {
+            font-size: 1.5em;
+            padding: 0.8em 1.5em;
+            background-color: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 40px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="message">Hi Angeline, I just want to say that you're cute and beautiful! ❤️</div>
+    
+    <div class="meme-container">
+        <img src="Angeline1.gif" class="meme">
+        <img src="Angeline2.png" class="meme">
+        <img src="Angeline3.gif" class="meme">
+        <img src="Angeline4.gif" class="meme">
+    </div>
+    
+    <button class="next-button" onclick="window.location.href='drinkwaterr.html'">Click Me</button>
+</body>
+</html>
